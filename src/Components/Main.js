@@ -40,14 +40,14 @@ function Main() {
 	const handleAvatarClick = (image) => {
 		axios
 			.post(
-				"https://demo.cuberootdigital.in/tools-backend/image-upload",
+				"https://apps.nomid.com/tools-backend/image-upload",
 				image
 			)
 			.then((res) => {
 				dispatch(
 					changeMainInput(
 						"image",
-						"https://demo.cuberootdigital.in/tools-backend/uploads/EmailGenerator/" +
+						"https://apps.nomid.com/tools-backend/uploads/EmailGenerator/" +
 							res.data
 					)
 				);
