@@ -1,8 +1,8 @@
 {
-  "name": "email-signature",
+  "name": "img",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://demo.cuberootdigital.in/email-signature/",
+  "homepage": "https://apps.nomid.com/img/",
   "dependencies": {
     "@emotion/react": "^11.5.0",
     "@emotion/styled": "^11.3.0",
