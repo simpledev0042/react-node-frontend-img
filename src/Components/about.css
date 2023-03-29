@@ -1,0 +1,40 @@
+.about {
+  text-align: center;
+  margin: auto;
+  padding: 2vw;
+}
+
+.about h1 {
+  margin-top: 0px;
+  font-family: "Recursive";
+  color: #0385db;
+  margin-bottom: 0px !important;
+}
+
+hr.new1 {
+  border: 1px solid #349c27;
+  width: 90px;
+  margin-bottom: 1rem;
+}
+
+.about > p {
+  margin: 0 10%;
+  font-family: "Poppins";
+}
+
+@media only screen and (max-width: 1025px) {
+  .about {
+    text-align: center;
+    margin: auto;
+    padding: 1em;
+  }
+
+  .about h1 {
+    font-family: "Recursive" !important;
+    color: #0385db;
+  }
+
+  .p {
+    font-family: "Poppins", sans-serif;
+  }
+}

@@ -1,0 +1,107 @@
+.information {
+	flex: 0.5;
+	padding: 0.5vw;
+	margin-left: 0.5em;
+	width: 100%;
+	/* border: 2px solid black; */
+}
+
+.info-title {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.reset-form {
+	border: 2px solid #0385db;
+	color: #0385db;
+	background-color: white;
+	padding: 0.5vw;
+	font-family: "Poppins";
+  font-weight: bold;
+  height: 40px;
+	border-radius: 8%;
+}
+
+.reset-form:hover {
+	color: white;
+  cursor: pointer;
+	background-color: #0385db;
+}
+
+.MuiButton-contained {
+	color: black !important;
+	background-color: #f6f6f6 !important;
+}
+
+.MuiButton-contained:hover {
+	color: white !important;
+	background-color: #0385db !important;
+}
+
+.selected {
+	color: white !important;
+	background-color: #0385db !important;
+}
+
+@media only screen and (max-width: 1025px) {
+	.information {
+		padding: 1em;
+		/* margin-left: 1em; */
+		width: 90%;
+	}
+
+	.dropdown {
+		padding: 0.5vw;
+		background-color: white;
+		text-transform: uppercase;
+		color: black;
+		border: 1px solid #dddddd;
+		border-radius: 2px 2px 0px 0px;
+	}
+
+	.info-title {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin-bottom: 1em;
+	}
+
+	.reset-form {
+		border: 2px solid #0385db;
+		color: #0385db;
+		background-color: white;
+		padding: 0.2vw;
+		border-radius: 8%;
+	}
+
+	.reset-form:hover {
+		color: white;
+		background-color: #0385db;
+	}
+
+	.MuiButton-contained {
+		color: black !important;
+		background-color: #f6f6f6 !important;
+		padding: 0px;
+	}
+
+	.css-sghohy-MuiButtonBase-root-MuiButton-root {
+		padding: 10px 11px !important;
+	}
+
+	.MuiButton-contained:hover {
+		color: white !important;
+		background-color: #0385db !important;
+	}
+
+	.selected {
+		color: white !important;
+		background-color: #0385db !important;
+	}
+
+	.section-header {
+		margin-bottom: 1em;
+		margin-right: 1em;
+	}
+}

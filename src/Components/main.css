@@ -1,0 +1,183 @@
+.main-input {
+	display: flex;
+	flex-direction: column;
+	padding: 1vw;
+}
+
+.main {
+	width: 100%;
+}
+
+.main-input > label {
+	padding: 0.5vw;
+	background-color: white;
+	text-transform: uppercase;
+	color: black;
+	border: 1px solid #dddddd;
+	border-radius: 2px 2px 0px 0px;
+}
+
+.main-input > input {
+	background-color: #f7f7f7;
+	color: black;
+	padding: 0.5vw;
+	border: 1px solid #dddddd;
+	font-size: medium;
+}
+
+.star {
+	color: red;
+	font-size: 18px;
+	right: 8px;
+	top: 58%;
+	line-height: 1;
+	transform: translateY(-50%);
+	position: static;
+}
+
+.main .MuiButton-contained {
+	background-color: #0385db !important;
+	color: white !important;
+	width: 100% !important;
+	text-transform: capitalize !important;
+}
+
+.main .MuiButton-contained:hover {
+	background-color: #181b3a !important;
+}
+
+.main > p {
+	font-size: smaller;
+	padding-left: 1vw;
+}
+
+input:focus {
+	outline: none;
+}
+
+.add-field {
+	display: flex;
+	flex-direction: row;
+	padding: 1vw;
+	height: 100%;
+	border-radius: 5px;
+}
+
+.add-field input {
+	display: flex;
+	/* border-radius: 5px 0px 0px 5px; */
+	border: 1px solid #dddddd;
+	outline: none;
+	flex: 0.25 !important;
+	width: 113px;
+	padding: 2px;
+}
+
+.add-field option,
+.add-field select {
+	font-weight: bold;
+}
+
+.add-field select {
+	display: flex;
+	flex: 0.25 !important;
+	/* border-radius: 5px 0px 0px 5px; */
+	border: 1px solid #dddddd;
+}
+
+.add-field-button {
+	background-color: #0385db !important;
+	border-radius: 0px !important;
+	color: white !important;
+	flex: 0.25 !important;
+}
+
+@media only screen and (max-width: 1024px) {
+	.main-input {
+		display: flex;
+		flex-direction: column;
+		padding: 1vw;
+	}
+
+	.main {
+		width: 100%;
+	}
+
+	.main-input > label {
+		padding: 0.5vw;
+		background-color: white;
+		text-transform: uppercase;
+		color: black;
+		border: 1px solid #dddddd;
+		border-radius: 2px 2px 0px 0px;
+	}
+
+	.main-input > input {
+		background-color: #f7f7f7;
+		color: black;
+		padding: 0.5vw;
+		border: 1px solid #dddddd;
+		border-radius: 0px 0px 2px 2px;
+		font-size: medium;
+	}
+
+	.star {
+		color: red;
+		font-size: 18px;
+		right: 8px;
+		top: 58%;
+		line-height: 1;
+		transform: translateY(-50%);
+		position: static;
+	}
+
+	.main .MuiButton-contained {
+		border-radius: 25px !important;
+		background-color: #0385db !important;
+		color: white !important;
+		width: 100% !important;
+		text-transform: capitalize !important;
+	}
+
+	.main .MuiButton-contained:hover {
+		background-color: #181b3a !important;
+	}
+
+	.main > p {
+		font-size: smaller;
+		padding-left: 1vw;
+	}
+
+	input:focus {
+		outline: none;
+	}
+
+	.add-field {
+		display: flex;
+		flex-direction: column;
+		padding: 1vw;
+		height: 100%;
+		border-radius: 5px;
+	}
+
+	.add-field input {
+		display: flex;
+		border-radius: 5px 0px 0px 5px;
+		border: 1px solid #dddddd;
+		outline: none;
+		padding: 1em;
+		width: auto;
+	}
+
+	.add-field select {
+		display: flex;
+		border-radius: 5px 0px 0px 5px;
+		border: 1px solid #dddddd;
+		padding: 1em;
+	}
+
+	.add-field-button {
+		background-color: #0385db !important;
+		color: white !important;
+	}
+}

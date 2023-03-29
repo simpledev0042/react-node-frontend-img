@@ -1,0 +1,60 @@
+body {
+	font-family: "Poppins" !important;
+	overflow: scroll;
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+
+input {
+	font-family: "Poppins";
+}
+
+label {
+	font-family: "Poppins";
+}
+
+p {
+	font-family: "Poppins";
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: "Recursive", sans-serif;
+}
+
+span,
+select,
+option {
+	font-family: "Poppins";
+}
+
+.breadcrumb-main {
+	margin-top: 1rem;
+	margin-left: 1rem;
+}
+
+@media (max-width: 500px) {
+	.breadcrumb-link {
+		font-size: 13px;
+	}
+}
+
+@media (max-width: 370px) {
+	.breadcrumb-link {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 350px) {
+	.breadcrumb-link {
+		font-size: 11px;
+	}
+}
+
+@media (max-width: 325px) {
+	.breadcrumb-link {
+		font-size: 10px;
+	}
+}
